@@ -1,0 +1,187 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(to right, #f2994a, #f2c94c);
+}
+
+.welcome-section {
+    width: 70%;
+    color:black;
+}
+
+.welcome-section h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.welcome-section img {
+    width: 150px;
+    height: 150px;
+}
+
+.sidebar {
+    width: 25%;
+    background: linear-gradient(to bottom, #6a11cb, #2575fc);
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.gallery {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.gallery h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #e0e0e0;
+    border: 2px solid #333;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.signup {
+    background-color: #fff;
+}
+
+
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+}
+.s1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.signup label {
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    max-width: 400px;
+}
+
+.signup input[type="text"], .signup input[type="email"] {
+    padding: 10px;
+    width: 100%;
+   
+    border: 1px solid #ccc;
+}
+
+.signup .terms {
+    display: flex;
+
+    max-width: 400px;
+    width: 100%;
+    justify-content: start;
+}
+
+.signup input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.signup input[type="submit"] {
+    padding: 10px 20px;
+    background-color:cadetblue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    max-width: 100%;
+    width: 100%;
+}
+
+.signup input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
